@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.section1{
+			width: 100%;
+			height: 120px;
+			background-color: #e1f3fd;
+		}
+		.logo{
+			float: left;
+			line-height: 100px;
+		}
+		.logo h1{
+			margin-left: 10px;
+		}
+		.nav{
+			float: right;
+			line-height: 100px;
+		}
+		.nav a{
+			text-decoration: none;
+			margin-left: 40px;
+			padding: 10px;
+		}
+		.nav a:hover{
+			background-color: black;
+			color: lightcoral;
+			transition: 1s;
+		}
+		@media(max-width:740px){
+			.section1{
+				flex-wrap: wrap;
+				height: 200px;
+			}
+			.nav{
+				float: none;
+				text-align: center;
+			}
+			.logo{
+				float: none;
+				text-align: center;
+
+
+			}
+			.logo h1{
+				margin: 0;
+				padding: 0;
+			}
+		}
+		@media(max-width:630px){
+			.section1{
+				height: 500px;
+			}
+			.nav a{
+				display: block;
+				margin-top: -50px;
+				margin-left: 0;
+			}
+		}
+/********************************section1 is close***************************************/
+
+	.section2{
+		width: 100%;
+		height: 600px;
+		display: flex;
+		background-color: #e1f3fd;
+
+	}
+	.sec2_text{
+		width: 50%;
+		padding-top: 100px;
+		margin-left: 10px;
+		margin-top: 50px;
+
+	}
+	.sec2_text h3{
+
+	}
+	.sec2_text h1{
+			font-size: 35px;
+			margin-top: 10px;
+	}
+	.sec2_text p{
+		margin-top: 10px;
+
+	}
+	.sec2_text button{
+		width: 130px;
+		height: 30px;
+		border-radius: 10px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.sec2_img{
+		width: 50%;
+		margin-top: 50px;
+	}
+	.sec2_img img{
+		width: 90%;
+		height: 450px;
+	}
+	@media(max-width:992px){
+		.section2{
+			flex-wrap: wrap;
+			height: 1000px;
+		}
+		.sec2_text{
+			text-align: center;
+			width: 90%;
+		}
+		.sec2_img{
+			width: 90%;
+
+		}
+		.sec2_img img{
+				padding-left: 60px;
+		}
+	}
+	@media(max-width:380px){
+		.sec2_img img{
+			padding: 30px;
+		}
+	}
+
+/*********************************section2 is close******************************/
+
+.section3{
+	width: 100%;
+	height: 200px;
+}
+.sec3_text{
+	text-align: center;
+}
+.sec3_text h1{
+
+}
+.sec3_text p{
+	margin-top: 30px;
+}
+/************************************section3 is close******************************/
+
+.section4{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+.box{
+	width: 30%;
+	height: 200px;
+	border: 1px solid yellow;
+	box-shadow: 0px 8px 10px yellow;
+	border-radius: 10px;
+	border: none;
+	text-align: center;
+}
+.box p{
+	padding-top: 30px;
+}
+.box button{
+	width: 130px;
+	height: 30px;
+	background-color: gold;
+	border-radius: 10px;
+	margin-top: 10px;
+	border: none;
+
+}
+@media(max-width:992px){
+	.section4{
+		flex-wrap: wrap;
+		height: 500px;
+	}
+	.box{
+		width: 45%;
+	}
+}
+@media(max-width:767px){
+	.section4{
+		flex-wrap: wrap;
+		height: 900px;
+
+	}
+	.box{
+		width: 90%;
+	}
+}
+/**********************************section4 is close******************************/
+
+.section5{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	background-color:  #e1f3fd;
+
+}
+.sec5_text{
+	width: 50%;
+	text-align: center;
+	padding-top: 150px;
+    margin-left: 10px;
+
+}
+.sec5_text h2{
+
+}
+.sec5_text p{
+	padding-top: 20px;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+.sec5_text button{
+	width: 130px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: gold;
+	border: none;
+	margin-top: 10px;
+
+}
+.sec5_img{
+	width: 50%;
+
+}
+.sec5_img img{
+	width: 90%;
+	height: 450px;
+}
+@media(max-width:992px){
+	.section5{
+		flex-wrap: wrap;
+		height: 750px;
+	}
+	.sec5_text{
+		width: 90%;
+	}
+	.sec5_img{
+		width: 90%;
+	}
+	.sec5_img img{
+		padding-left: 80px;
+	}
+}
+@media(max-width:600px){
+	.section5{
+		height: 850px;
+	}
+	.sec5_img img{
+		padding-left: 50px;
+	}
+}
+/**********************************section5 is close*****************************/
+.section6{
+	width: 100%;
+
+}
+.sec6_text{
+	text-align: center;
+
+}
+.sec6_text h2{
+
+}
+.sec6_text p{
+	margin-top: 20px;
+
+}
+/*******************************section6 is close**********************************/
+.section7{
+	width: 100%;
+	height: 700px;
+	display: flex;
+
+}
+.box1{
+	width: 24%;
+	text-align: center;
+	margin-top: 20px;
+
+}
+@media(max-width:992px){
+	.section7{
+		height: 1200px;
+		flex-wrap: wrap;
+	}
+	.box1{
+		width: 45%;
+
+	}
+}
+@media(max-width:767px){
+	.section7{
+		height: 2500px;
+		flex-wrap: wrap;
+	}
+	.box1{
+		width: 90%;
+
+	}
+}
+/**********************************section7 is close*********************************/
+
+.section8{
+	width: 100%;
+	height: 500px;
+}
+.sec8_text{
+	text-align: center;
+}
+.sec8_text h2{
+
+}
+form{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	margin-top: 100px;
+}
+input{
+	height: 50px;
+	width: 50%;
+	margin: 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+form button{
+	width: 130px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: gold;
+	border: none;
+	margin-top: 10px;
+}
+/**/
+
+.section9{
+	width: 100%;
+	height: 650px;
+	background-image: url("practical 8.jpg");
+	background-size: cover;
+
+}
+.sec9_text{
+	color: white;
+	margin-left: 20px;
+
+
+}
+.sec9_text h1{
+	padding: 50px;
+}
+.sec9_text p{
+	padding: 10px;
+	padding-bottom: 0;
+}
+.sec9_text h1 i{
+	font-size: 40px;
+}
+.a{
+	margin: 0;
+	padding: 0;
+	width: 300px;
+
+}
+@media(max-width:992px){
+	.b{
+		margin-left: 50px;
+	}
+	.a{
+		margin-left: 50px;
+	}
+	
+}
+@media(max-width:390px){
+	.a{
+		width: 250px;
+	}
+}
+
+/*section10 is start*/
+.section10{
+	height: 300px;
+	background-color: #e1f3fd;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.d3{
+	transform: rotate(180deg);
+
+}
+.d3 p{
+	font-size: 100px;
+}
+.section11{
+	background-color: #e1f3fd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.d4{
+	margin-right: 5px;
+		width: 50px;
+		height: 50px;
+		background-color: black;
+		border-radius: 50%;
+}
+.d5{
+	margin-right: 5px;
+width: 50px;
+		height: 50px;
+		background-color: red;
+		border-radius: 50%;
+}
+.d6{
+width: 50px;
+		height: 50px;
+		background-color: black;
+		border-radius: 50%;
+}
+
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="section1">
+	<div class="logo">
+		<h1>Rotot</h1>
+	</div>
+	<div class="nav">
+		<a href="#">HOME</a>
+		<a href="#">BLOG</a>
+		<a href="#">ABOUT</a>
+		<a href="#">SERVICE</a>
+		<a href="#">CONTACT US</a>
+	</div>
+</section>
+<!--------------------------------section1 is close-------------------------------->
+
+<section class="section2">
+	<div class="sec2_text">
+		<h3>CONSTRUCTION</h3>
+		<h1>BUILDING</h1>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+		<button>CONTACT US</button><button style="background-color: gold;">GET A QUOTE NOW</button>
+	</div>
+	<div class="sec2_img">
+		<img src="practical 1.jpg">
+	</div>
+</section>
+<!-------------------------------------section2 is close----------------------------->
+<section class="section3">
+	<div class="sec3_text wow animate__animated animate__swing">
+		<h1>OUR SERVICES</h1>
+		<p>It is a long established fact that a reader will be distracted by the readable</p>
+	</div>
+	</section>
+<!--------------------------------section3 is close----------------------------------->
+<section class="section4">
+	<div class="box">
+		<h1><img src="practical 10.jpg">ARCHITECTURE</h1>
+		<p>It is a long established fact that a reader will be distracted by the readable</p>
+		<button>SEE MORE</button>
+	</div>
+
+	<div class="box">
+		<h1><img src="practical 10.jpg">ARCHITECTURE</h1>
+		<p>It is a long established fact that a reader will be distracted by the readable</p>
+		<button>SEE MORE</button>
+	</div>
+
+	<div class="box">
+		<h1><img src="practical 10.jpg">ARCHITECTURE</h1>
+		<p>It is a long established fact that a reader will be distracted by the readable</p>
+		<button>SEE MORE</button>
+	</div>
+</section>
+<h1 style="text-align: center;">TESTIMONIAL</h1>
+<section class="section10">
+	
+	<div class="d1">
+		<h1>TESTIMONIAL</h1>
+		<img src="practical 7.jpg">
+		<h2>JOHN DUE</h2><br>
+		<p style="color: gold; margin-top: -20px; text-align: center; font-size: 15px; font-weight: bold;">Projctor</p>
+	</div>
+	<div class="d2" style="width:200px;height: 100px; background-color: white;" >
+		<p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt veniam, quis</p>
+	</div>
+	<div class="d3">
+		<p style="font-size: 100px;font-weight: bold	;">,,</p>
+	</div>
+</section>
+<section class="section11">
+	<div class="d4"></div>
+	<div class="d5"></div>
+	<div class="d6"></div>
+</section>
+<!------------------------------section4 is close------------------------------------>
+<section class="section5">
+	<div class="sec5_text">
+		<h2>About Company</h2>
+		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+		<button>ABOUT MORE</button>
+	</div>
+	<div class="sec5_img">
+		<img src="practical 2.jpg">
+	</div>
+</section>
+<!-----------------------------section5 is close----------------------------------->
+
+<section class="section6">
+	<div class="sec6_text">
+		<h2>OUR TEAM</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+	</div>
+</section>
+<!-----------------------------section6 is close---------------------------------->
+   <div class="wow bounceInUp">
+                  Content to Reveal Here
+                  </div>
+<section class="section7 wow animate__rubberBand" >
+	<div class="box1">
+		<img src="practical 3.jpg"><br>
+		<h3>SANDY MARK</h3><br>
+		<h4>ARCHITECTURE</h4>
+	</div>
+
+	<div class="box1">
+		<img src="practical 4.jpg"><br>
+		<h3>LIMIJACK</h3><br>
+		<h4>MAPING</h4>
+	</div>
+
+	<div class="box1">
+		<img src="practical 5.jpg"><br>
+		<h3>SMITH DEN</h3><br>
+		<h4>MATERIAL</h4>
+	</div>
+
+	<div class="box1">
+		<img src="practical 6.jpg"><br>
+		<h3>LORMDEN</h3><br>
+		<h4>STRUCTURAL DESIGN</h4>
+	</div>
+</section>
+<!---------------------------section7 is close------------------------------------>
+
+<section class="section8 wow animate__animated animate__bounce">
+	<div class="sec8_text">
+		<u><h2>Request A call for You</h2></u>
+	</div>
+	<form>
+		<input type="text" placeholder="YOUR NAME"><br>
+		<input type="email" placeholder="EMAIL"><br>
+		<input type="number" placeholder="PHONE NUMBER"><br>
+		<input type="text" placeholder="MESSAGE"><br>
+		<button>SEND</button>
+	</form>
+</section>
+<!---------------------------------section8 is close---------------------------->
+<section class="section9">
+	<div class="sec9_text">
+		<h1><i class="fa-solid fa-location-dot"></i>Address : Lorem Ipsum is simply dummy</h1>
+		<h1><i class="fa-solid fa-phone"></i>Phone : +(1234) 567 890</h1>
+		<h1><i class="fa-solid fa-envelope"></i>Email : demo@gmail.com</h1>
+		<p class="b">Newsletter</p><br>
+		<input class="a" type="email" placeholder="Enter your email">
+	</div>
+</section>
+<marquee>
+	<footer><h1>copyright 2019 All Right Reserved By Free html Templates</h1></footer>
+</marquee>
+<script type="wow.min.js"></script>
+
+              <script>
+              new WOW().init();
+              </script>
+               <div class="wow">
+                Content to Reveal Here
+                </div>
+</body>
+</html>
